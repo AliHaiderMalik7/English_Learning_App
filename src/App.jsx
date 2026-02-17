@@ -54,12 +54,12 @@ function App() {
           <div className="logo-container">
             <div className="app-icon">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="18" fill="#0d1b2a"/>
-                <circle cx="20" cy="16" r="6" fill="#f4a261"/>
-                <ellipse cx="18" cy="15" rx="1" ry="1.5" fill="#0d1b2a"/>
-                <ellipse cx="22" cy="15" rx="1" ry="1.5" fill="#0d1b2a"/>
-                <path d="M 18 18 Q 20 19 22 18" stroke="#0d1b2a" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                <path d="M 12 24 Q 20 28 28 24" stroke="#f4a261" strokeWidth="2" fill="none"/>
+                <circle cx="20" cy="20" r="18" fill="#9370DB"/>
+                <circle cx="20" cy="16" r="6" fill="#FFB6C1"/>
+                <ellipse cx="18" cy="15" rx="1" ry="1.5" fill="#9370DB"/>
+                <ellipse cx="22" cy="15" rx="1" ry="1.5" fill="#9370DB"/>
+                <path d="M 18 18 Q 20 19 22 18" stroke="#9370DB" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+                <path d="M 12 24 Q 20 28 28 24" stroke="#FFB6C1" strokeWidth="2" fill="none"/>
               </svg>
             </div>
             <span className="app-name">EnglishMaster</span>
@@ -253,25 +253,25 @@ function App() {
           <p className="section-subtitle">Start your journey in four simple steps</p>
           <div className="process-steps">
             <div className="step-card" style={{ animationDelay: '0.1s' }}>
-              <div className="step-number pulse">1</div>
+              <div className="step-number step-1 pulse">1</div>
               <h3>Take Placement Test</h3>
               <p>Assess your current level with our quick 5-minute test to get personalized recommendations.</p>
             </div>
             <div className="step-arrow">→</div>
             <div className="step-card" style={{ animationDelay: '0.2s' }}>
-              <div className="step-number pulse" style={{ animationDelay: '0.2s' }}>2</div>
+              <div className="step-number step-2 pulse" style={{ animationDelay: '0.2s' }}>2</div>
               <h3>Get Personalized Lessons</h3>
               <p>Receive a custom learning path tailored to your goals, schedule, and current proficiency.</p>
             </div>
             <div className="step-arrow">→</div>
             <div className="step-card" style={{ animationDelay: '0.3s' }}>
-              <div className="step-number pulse" style={{ animationDelay: '0.4s' }}>3</div>
+              <div className="step-number step-3 pulse" style={{ animationDelay: '0.4s' }}>3</div>
               <h3>Practice Daily</h3>
               <p>Engage with bite-sized lessons, speaking exercises, and interactive content every day.</p>
             </div>
             <div className="step-arrow">→</div>
             <div className="step-card" style={{ animationDelay: '0.4s' }}>
-              <div className="step-number pulse" style={{ animationDelay: '0.6s' }}>4</div>
+              <div className="step-number step-4 pulse" style={{ animationDelay: '0.6s' }}>4</div>
               <h3>Track Your Progress</h3>
               <p>Monitor your improvement with detailed analytics and celebrate milestones along the way.</p>
             </div>
@@ -378,16 +378,6 @@ function App() {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="final-cta">
-        <div className="container">
-          <h2 className="cta-title">Start Your English Journey Today</h2>
-          <p className="cta-subtitle">Join thousands of learners who are transforming their English skills</p>
-          <button className="btn-primary btn-large pulse-button">Get Started Free</button>
-          <p className="cta-note">No credit card required • Cancel anytime</p>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="footer">
         <div className="container">
@@ -396,12 +386,12 @@ function App() {
               <div className="footer-logo">
                 <div className="app-icon">
                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="20" cy="20" r="18" fill="#0d1b2a"/>
-                    <circle cx="20" cy="16" r="6" fill="#f4a261"/>
-                    <ellipse cx="18" cy="15" rx="1" ry="1.5" fill="#0d1b2a"/>
-                    <ellipse cx="22" cy="15" rx="1" ry="1.5" fill="#0d1b2a"/>
-                    <path d="M 18 18 Q 20 19 22 18" stroke="#0d1b2a" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                    <path d="M 12 24 Q 20 28 28 24" stroke="#f4a261" strokeWidth="2" fill="none"/>
+                    <circle cx="20" cy="20" r="18" fill="#9370DB"/>
+                    <circle cx="20" cy="16" r="6" fill="#FFB6C1"/>
+                    <ellipse cx="18" cy="15" rx="1" ry="1.5" fill="#9370DB"/>
+                    <ellipse cx="22" cy="15" rx="1" ry="1.5" fill="#9370DB"/>
+                    <path d="M 18 18 Q 20 19 22 18" stroke="#9370DB" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+                    <path d="M 12 24 Q 20 28 28 24" stroke="#FFB6C1" strokeWidth="2" fill="none"/>
                   </svg>
                 </div>
                 <span className="app-name">Cresca</span>
